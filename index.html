@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feast Event | Premium Catering & Event Management</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">Feast Event</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact" class="btn btn-outline btn-sm">Contact Us</a>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text-box glass-panel reveal fade-up">
+                <h1 class="hero-title">Creating Unforgettable Events & Exquisite Catering</h1>
+                <p class="hero-subtitle">Experience luxury, elegance, and professional hospitality for your most cherished moments. We craft bespoke events perfectly tailored to your vision.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Book an Event</a>
+                    <a href="#services" class="btn btn-secondary">View Services</a>
+                </div>
+            </div>
+            
+            <div class="floating-card metric-card">
+                <div class="icon-circle"><i class="fas fa-star"></i></div>
+                <div>
+                    <span class="counter" data-target="500">0</span>+
+                    <p>Premium Events</p>
+                </div>
+            </div>
+            <div class="floating-card satisfaction-card">
+                <div class="icon-circle"><i class="fas fa-heart"></i></div>
+                <div>
+                    <span>100%</span>
+                    <p>Client Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. About Section -->
+    <section id="about" class="section about-section">
+        <div class="container about-container">
+            <div class="about-image-wrapper reveal fade-right">
+                <div class="image-glass-frame">
+                    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Premium Event Setup" id="about-img" class="about-img">
+                </div>
+            </div>
+            <div class="about-content reveal fade-left">
+                <span class="section-tag">About Us</span>
+                <h2 class="section-title">The Art of Fine Hospitality</h2>
+                <p class="section-desc">At Feast Event, we believe that every event should be a masterpiece. Specializing in high-end catering and luxury event management, we bring artistry, precision, and passion to every occasion.</p>
+                <p class="section-desc">From intimate corporate gatherings to grand weddings, our professional team ensures a seamless, extraordinarily elegant experience that leaves a lasting impression on your guests.</p>
+                <ul class="feature-list">
+                    <li><i class="fas fa-check-circle"></i> Uncompromised Quality & Taste</li>
+                    <li><i class="fas fa-check-circle"></i> Bespoke Event Customization</li>
+                    <li><i class="fas fa-check-circle"></i> Dedicated Professional Staff</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Services Section -->
+    <section id="services" class="section services-section bg-light">
+        <div class="container">
+            <div class="section-header reveal fade-up">
+                <span class="section-tag">Our Expertise</span>
+                <h2 class="section-title">Premium Services</h2>
+                <p class="section-desc text-center">Comprehensive luxury event management tailored to your exact requirements.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Catering -->
+                <div class="service-card glass-panel reveal fade-up" style="transition-delay: 100ms;">
+                    <div class="service-icon"><i class="fas fa-utensils"></i></div>
+                    <h3 class="service-title">Catering Services</h3>
+                    <p class="service-desc">Exquisite gourmet menus crafted by top chefs, offering a blend of traditional and international cuisines.</p>
+                </div>
+                <!-- Event Management -->
+                <div class="service-card glass-panel reveal fade-up" style="transition-delay: 200ms;">
+                    <div class="service-icon"><i class="fas fa-calendar-check"></i></div>
+                    <h3 class="service-title">Event Management</h3>
+                    <p class="service-desc">End-to-end meticulous planning and execution for flawless weddings and corporate events.</p>
+                </div>
+                <!-- Stage Decoration -->
+                <div class="service-card glass-panel reveal fade-up" style="transition-delay: 300ms;">
+                    <div class="service-icon"><i class="fas fa-gem"></i></div>
+                    <h3 class="service-title">Stage Decoration</h3>
+                    <p class="service-desc">Stunning, custom-designed stage setups featuring floral arrangements and modern luxury decor.</p>
+                </div>
+                <!-- Service Staff -->
+                <div class="service-card glass-panel reveal fade-up" style="transition-delay: 400ms;">
+                    <div class="service-icon"><i class="fas fa-user-tie"></i></div>
+                    <h3 class="service-title">Service Staff</h3>
+                    <p class="service-desc">Highly trained, professional, and courteous hospitality staff to serve your guests gracefully.</p>
+                </div>
+                <!-- Table Setup -->
+                <div class="service-card glass-panel reveal fade-up" style="transition-delay: 500ms;">
+                    <div class="service-icon"><i class="fas fa-wine-glass-alt"></i></div>
+                    <h3 class="service-title">Table Setup & Decor</h3>
+                    <p class="service-desc">Elegant tablescapes, fine cutlery, and sophisticated dining arrangements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Event Gallery -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <div class="section-header reveal fade-up">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Event Gallery</h2>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- High-quality event themed images -->
+                <div class="gallery-item reveal fade-up" style="transition-delay: 100ms;">
+                    <img src="gallery/img1.jpeg" alt="Elegant Wedding Setup">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal fade-up" style="transition-delay: 200ms;">
+                    <img src="gallery/img2.jpeg" alt="Luxury Banquet Dining">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal fade-up" style="transition-delay: 300ms;">
+                    <img src="gallery/img3.jpeg" alt="Premium Event Floral Decor">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal fade-up" style="transition-delay: 400ms;">
+                    <img src="gallery/img4.jpeg" alt="Corporate Gala Event">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal fade-up" style="transition-delay: 500ms;">
+                    <img src="gallery/img5.jpeg" alt="Fine Dining Catering Table">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal fade-up" style="transition-delay: 600ms;">
+                    <img src="gallery/img6.jpeg" alt="Stunning Table Setup and Decor">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox for Gallery -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- 5. Why Choose Us -->
+    <section class="section why-us-section bg-light">
+        <div class="container">
+            <div class="section-header reveal fade-up">
+                <span class="section-tag">The Feast Difference</span>
+                <h2 class="section-title">Why Choose Us</h2>
+            </div>
+            
+            <div class="feature-cards-wrap">
+                <div class="feature-highlight-card reveal fade-right" style="transition-delay: 100ms;">
+                    <div class="feature-icon"><i class="fas fa-crown"></i></div>
+                    <h4>Premium Quality Catering</h4>
+                    <p>Only the finest ingredients sourced for extraordinary culinary experiences.</p>
+                </div>
+                <div class="feature-highlight-card reveal fade-right" style="transition-delay: 200ms;">
+                    <div class="feature-icon"><i class="fas fa-magic"></i></div>
+                    <h4>Elegant Event Design</h4>
+                    <p>Creating visually stunning environments that captivate your guests.</p>
+                </div>
+                <div class="feature-highlight-card reveal fade-right" style="transition-delay: 300ms;">
+                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <h4>Professional Team</h4>
+                    <p>Experienced managers, chefs, and staff dedicated to perfection.</p>
+                </div>
+                <div class="feature-highlight-card reveal fade-right" style="transition-delay: 400ms;">
+                    <div class="feature-icon"><i class="fas fa-sliders-h"></i></div>
+                    <h4>Customized Planning</h4>
+                    <p>Tailor-made solutions to fit your specific vision and requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Booking / Contact Section -->
+    <section id="contact" class="section contact-section parallax-bg">
+        <div class="contact-overlay"></div>
+        <div class="container contact-container">
+            <div class="contact-info reveal fade-right">
+                <span class="section-tag text-white">Get in Touch</span>
+                <h2 class="section-title text-white">Let's Discuss Your Event</h2>
+                <p class="text-white contact-desc">Reach out to our team to start planning your perfect day.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="c-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h5>Location</h5>
+                            <p>Kattakambal, Kunnamkulam, Thrissur</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="c-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <h5>Call Us</h5>
+                            <a href="tel:+917356656700" class="phone-link">+91 73566 56700</a><br>
+                            <a href="tel:+918848100821" class="phone-link">+91 88481 00821</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-wrapper glass-panel reveal fade-left">
+                <h3>Request a Quote</h3>
+                <form id="booking-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group dual-group">
+                        <select id="event-type" required>
+                            <option value="" disabled selected>Event Type</option>
+                            <option value="wedding">Wedding</option>
+                            <option value="corporate">Corporate Event</option>
+                            <option value="party">Private Party</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="4" placeholder="Tell us about your requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Request Quote</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Final Call-to-Action -->
+    <section class="final-cta section">
+        <div class="container text-center reveal fade-up">
+            <h2>Let’s Make Your Event Extraordinary</h2>
+            <p>Our calendar fills up quickly for peak seasons. Contact us today to secure your dates.</p>
+            <a href="#contact" class="btn btn-primary btn-lg mt-4">Book Your Event Now</a>
+        </div>
+    </section>
+
+    <!-- 8. Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo text-white">
+                    <span class="logo-text">Feast Event</span>
+                </a>
+                <p>Curating exceptional luxury events and premium catering experiences in Thrissur.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/_feast_event_?igsh=MWc5cTY2Y2x3anN6eg==" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Kattakambal, Kunnamkulam, Thrissur</p>
+                <p><i class="fas fa-phone-alt"></i> +91 73566 56700</p>
+                <p><i class="fas fa-phone-alt"></i> +91 88481 00821</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Feast Event. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
